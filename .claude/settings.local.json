@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Path \"c:\\\\Users\\\\Usuario\\\\Desktop\\\\NICS\\\\RF-Fingerprint-Lab\\\\spectrum-lab\\\\frontend\\\\src\\\\app\\\\modules\\\\capture-lab\" -Recurse -File)",
+      "Bash(npx tsc *)",
+      "Bash(python -c \"from app.modules.rf_experiment_lab.live_inference_adapter import LiveInferenceAdapter, ModelReadinessGate; print\\('OK'\\)\")"
+    ]
+  }
+}
